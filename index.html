@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our First Project</title>
+    <script src="https://kit.fontawesome.com/789068d0d9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1> Welcome to Paradise Hotel</h1>
+            <p>Provide rooms at very good rates along with great amenties to make your living experience awesome</p>
+            <button class="book-button">Book</button>
+        </div>
+    </section>
+
+    <h1 class="about">About Us</h1>
+    <section class="about-section">
+
+        <div class="about-us">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima laboriosam error vel ipsa! Neque
+                pariatur officia quam harum ipsa molestias? Natus exercitationem aperiam quia laboriosam mollitia velit
+                neque nihil. Quam dolorum consequuntur placeat corporis rerum voluptatibus architecto quia eveniet
+                aperiam expedita fuga, quo quis atque non obcaecati perspiciatis distinctio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquam, odit autem, qui obcaecati
+                similique sequi nesciunt at blanditiis vitae sapiente culpa fugit repellat aperiam!</p>
+            <br>
+            <div class="know-button-container">
+                <button class="know-button">Know More....</button>
+            </div>
+        </div>
+
+        <div class="amenities">
+            <h2>Amenities We Have</h2>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i> High Speed Internet</li>
+                <li><i class="fa-solid fa-utensils"></i> Complementary Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i> Swimming Pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i> Gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i></i> Cafeteria</li>
+            </ul>
+        </div>
+    </section>
+
+    <h1>Room-Types</h1>
+
+    <section class="room-type-container">
+
+        <div class="room-image">
+            <img id="family-image" src="img/family-room.jpg" alt="error occured">
+        </div>
+        <div class="roomclass">
+            <div class="room1">
+                <h2>Family Room</h2>
+
+                <p>A family room is a larger accommodation option suitable for families or groups. It typically
+                    consists
+                    of multiple beds, providing ample space for parents and children to stay together comfortably.
+                    Family rooms may include additional amenities such as a seating area, television, and a larger
+                    bathroom. They offer convenience and affordability for families traveling together.</p>
+            </div>
+
+            <div class="room2">
+                <h2>Single Occupancy Room</h2>
+
+                <p>A single occupancy room is designed for one guest. It typically features a single bed and basic
+                    amenities such as a desk, chair, wardrobe, and an en-suite bathroom. These rooms are ideal for
+                    solo
+                    travelers or business professionals looking for privacy and comfort during their stay.</p>
+            </div>
+
+            <div class="room3">
+                <h2>Duplex Room</h2>
+
+                <p>A duplex room is a two-story accommodation featuring separate living and sleeping areas. The
+                    lower
+                    level often includes a living room, kitchenette, and dining area, while the upper level houses
+                    the
+                    bedroom and bathroom. Duplex rooms offer extra space and privacy, making them ideal for extended
+                    stays or travelers seeking a more luxurious experience.</p>
+            </div>
+        </div>
+
+    </section>
+    <div class="help-button">
+        <h4>Need Help?</h4>
+    </div>
+
+    <h1 class="query">Fill the form to book a room:-</h1>
+    <section class="form-container">
+    <form>
+        <div class="form-group">
+            <label>Your full name:</label><br>
+            <input type="text" placeholder="Enter your name" id="input">
+        </div>
+        <div class="form-group">
+            <label>Mail:</label><br>
+            <input type="email" placeholder="E-mail ID" id="input">
+        </div>
+        <div class="form-group">
+            <label>Booking Date:</label><br>
+            <input type="date" id="input" >
+        </div>
+        <div class="form-group">
+            <label for="room-type"> Room Type:</label><br>
+            <select name="room-type" id="input" required>
+                <option value="Single">Single Room</option>
+                <option value="Family">Family Room</option>
+                <option value="Duplex">Duplex Room</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input id="book" type="submit" value="Book">
+        </div>
+    </form>
+</section>
+</body>
+
+</html>

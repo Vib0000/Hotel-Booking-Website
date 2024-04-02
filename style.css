@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-image: url(img/hotel1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.hero-text {
+    color: snow;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: larger;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text>h1 {
+    color: snow;
+}
+
+.book-button,
+.know-button {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-family: cursive;
+    background-color: rgb(68, 177, 220);
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 3px solid rgb(236, 90, 90);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.book-button:hover,
+.know-button:hover {
+    background-color: rgb(12, 25, 159);
+    color: aqua;
+}
+
+.know-button-container {
+    text-align: center;
+}
+
+
+h1 {
+    color: rgb(69, 74, 181);
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.about-us {
+    float: left;
+    width: 50%;
+    color: rgb(211, 147, 62);
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.amenities h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(46, 3, 4);
+}
+
+.amenities {
+    text-align: center;
+}
+
+.amenities ul {
+    display: inline-block;
+    text-align: left;
+}
+
+ul li {
+    list-style: none;
+    margin: 4px;
+}
+
+ul li i {
+    margin-right: 4px;
+}
+
+.room-type-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+#family-image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.room1,
+.room2,
+.room3 {
+    background-color: blanchedalmond;
+    margin: 2px;
+    border: 2px solid salmon;
+    border-radius: 4px;
+    padding: 5px;
+    height: 155px;
+}
+
+.room1>h2 {
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: underline;
+}
+
+.room2>h2 {
+    padding: 5px 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.room3>h2 {
+    padding: 5px 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.roomclass {
+    width: 300%;
+    height: 510px;
+    margin-bottom: 5px;
+}
+
+.help-button {
+    background-color: rgb(110, 103, 210);
+    border: 3px solid rgb(73, 7, 197);
+    border-radius:10px;
+    color: white;
+    width: 120px;
+    text-align: center;
+    margin: 15px 15px;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    letter-spacing: 2px;
+    right: 0;
+}
+
+.help-button :hover {
+    background-color: rgb(8, 16, 16);
+    color: aqua;
+    cursor: pointer;
+}
+
+.query {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.form-container {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(90, 74, 74); */
+}
+
+form {
+    border: 4px solid rgb(128, 125, 123);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 6px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6rem;
+    padding: 5px;
+}
+label{
+    color: rgb(216, 34, 34);
+}
+#input {
+    border:4px solid rgb(250, 185, 185);
+    border-radius: 5px;
+    width: 300px;
+    height: 32px;
+}
+
+#book {
+    text-align: center;
+    border: 3px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
